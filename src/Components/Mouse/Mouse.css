@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
+    cursor: none;
+}
+
+.cursor {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #39b54a;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    transition: 0.1s;
+    mix-blend-mode: overlay;
+}
+
+.cursor-spot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fefefe;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    transition: 0.10s;
+}
