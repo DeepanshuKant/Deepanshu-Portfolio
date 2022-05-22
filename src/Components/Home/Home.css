@@ -55,7 +55,7 @@
 
 .home__scroll {
     position: absolute;
-    top: 90%;
+    top: 95%;
     right: 50px;
     /* border: 1px solid red; */
     display: flex;
@@ -100,5 +100,9 @@
         font-size: 18px;
         letter-spacing: 2px;
 
+    }
+
+    .home__scroll {
+        top: 90%;
     }
 }
