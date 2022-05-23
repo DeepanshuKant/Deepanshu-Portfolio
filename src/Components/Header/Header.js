@@ -7,9 +7,12 @@ function Header() {
 
     const [isSliding, setIsSliding] = useState(false);
 
+
     const isChanging = () => {
         setIsSliding(!isSliding);
     }
+
+
     return (
         <>
             <div className='hamburger' onClick={isChanging}>
