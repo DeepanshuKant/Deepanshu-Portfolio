@@ -109,7 +109,7 @@
 
 /* Media Query for small screen devices */
 @media only screen and (max-width: 375px) {
-    .home__buttons {
-        border: 1px solid red;
+    .home__parent {
+        padding-top: 125px;
     }
 }
