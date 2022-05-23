@@ -51,7 +51,7 @@
     /* top: 30px; */
     /* border: 1px solid red; */
     width: 0px;
-    height: 100%;
+    height: 100vh;
     /* display: none; */
     /* opacity: hidden; */
     transition: all .3s ease-out;
