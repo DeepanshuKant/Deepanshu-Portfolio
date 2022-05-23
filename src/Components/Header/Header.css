@@ -46,7 +46,7 @@
 .sliding__window {
     background-color: #0c0c0c;
     color: #39b54a;
-    position: absolute;
+    position: fixed;
     right: 0px;
     /* top: 30px; */
     /* border: 1px solid red; */
