@@ -3,6 +3,7 @@
     padding: 10px;
     padding-top: 5em;
     padding-bottom: 5em;
+    overflow: hidden;
 }
 
 .heading {
@@ -58,7 +59,7 @@
     position: relative;
     width: 50%;
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 .box:nth-child(1):after {
