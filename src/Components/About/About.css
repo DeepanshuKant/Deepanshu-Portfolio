@@ -92,3 +92,62 @@
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+@media only screen and (min-width: 451px) {
+    #about {
+        padding-top: 10em;
+        padding-bottom: 10em;
+    }
+
+    .heading p {
+        font-size: 1.2rem;
+    }
+
+    .heading h1 {
+        font-size: 3rem;
+        padding-bottom: 1.3em;
+    }
+
+    .about__content {
+        /* border: 1px solid red; */
+        font-size: 1.3rem;
+        width: 60%;
+        margin: auto;
+    }
+
+    .about__boxes {
+        /* border: 1px solid red; */
+        flex-direction: row;
+    }
+
+    .box {
+        /* border: 1px solid black; */
+        width: 20%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .box:nth-child(1):after {
+        content: ' ';
+        position: absolute;
+        left: 100%;
+        top: 0;
+        width: 1px;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.232);
+    }
+
+    .box:nth-child(2):after {
+        content: ' ';
+        position: absolute;
+        left: 100%;
+        top: 0;
+        width: 1px;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.232);
+    }
+
+    .about__boxes {
+        padding: 3em;
+    }
+}
