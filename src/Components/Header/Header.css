@@ -109,6 +109,11 @@
     user-select: none;
 }
 
+.sliding__items a {
+    text-decoration: none;
+    color: white;
+}
+
 .sliding__items__animation {
 
     animation: right-to-left 1s ease .2s forwards;

@@ -19,9 +19,7 @@ function About() {
                         <h1>I'm Deepanshu Kant</h1>
                     </div>
                     <div className="about__content" data-aos="fade-up">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero unde mollitia, ratione similique, incidunt illum eaque et rem facere eos alias accusantium! Aut labore vitae,
-                            at dolore deleniti veritatis exercitationem magnam asperiores nulla laboriosam, voluptas, odit soluta! Corrupti ducimus iste,
-                            repellat eos in magnam culpa explicabo qui? Cum, praesentium eos.</p>
+                        <p>I'm a Full Stack Web Developer and C++ programmer with over 1 year of experience in making and developing websites. Web technologies I am proficient with are HTML, CSS, Javascript, React, Express, Node and MongoDB.</p>
                     </div>
 
                     <div className="about__boxes">

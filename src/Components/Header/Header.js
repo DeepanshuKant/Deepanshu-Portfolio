@@ -35,12 +35,12 @@ function Header() {
                 <div className="second__box">
                     <ul>
 
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}>Home</li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}>About</li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}>Services</li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}>Works</li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}>Clients</li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}>Contacts</li>
+                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="#home" > Home</a></li>
+                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="#about" > About</a></li>
+                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="" > Services</a></li>
+                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="" > Works</a></li>
+                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="" >Clients</a> </li>
+                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="" >Contacts</a></li>
                     </ul >
                 </div >
                 <div className="third__box">
