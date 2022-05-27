@@ -37,7 +37,7 @@ function Header() {
 
                         <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="#home" > Home</a></li>
                         <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="#about" > About</a></li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="" > Services</a></li>
+                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="#service" > Services</a></li>
                         <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="" > Works</a></li>
                         <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="" >Clients</a> </li>
                         <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="" >Contacts</a></li>
