@@ -1,7 +1,11 @@
 #service {
     padding: 10px;
     padding-top: 6em;
-    padding-bottom: 6em;
+    padding-bottom: 10em;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .service__heading {
@@ -95,4 +99,81 @@
     top: 30px;
     background: url("../Asset/design.svg");
     color: #39b54a;
+}
+
+@media only screen and (min-width: 451px) {
+
+
+    #service {
+        padding-top: 10em;
+    }
+
+    .service__heading {
+        /* border: 1px solid red; */
+        width: 60%;
+        margin: auto;
+    }
+
+    .service__heading p {
+        font-size: 1.2rem;
+    }
+
+    .service__heading h1 {
+        padding-bottom: 1em;
+        font-size: 3rem;
+        /* border: 1px solid red; */
+    }
+
+    .service__heading h1::after {
+        width: 60%;
+        border-radius: 100%;
+    }
+
+    .service__parent__box {
+        /* padding-top: 3em; */
+        /* border: 1px solid red; */
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .service__box {
+        /* border: 1px solid black; */
+        padding: 4em;
+        width: 35%;
+    }
+
+    .service__box p {
+        /* border: 1px solid red; */
+        font-size: 1.8rem;
+        width: 100%;
+    }
+
+    .service__box h1 {
+        text-align: left;
+        font-size: 1.2rem;
+    }
+
+    .service__box:nth-child(1)::before {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        top: 70px;
+        left: -10px;
+        background: url("../Asset/development.svg");
+        color: #39b54a;
+    }
+
+    .service__box:nth-child(2)::before {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        top: 70px;
+        left: -10px;
+        background: url("../Asset/design.svg");
+        color: #39b54a;
+    }
 }

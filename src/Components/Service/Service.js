@@ -16,7 +16,7 @@ function Service() {
                         </div>
                         <div className="service__box">
                             <p>Web Design</p>
-                            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. A vero quas accusamus rerum blanditiis corporis culpa dignissimos ipsum ratione asperiores.</h1>
+                            <h1>Designing of interactive and creative webpages for the website in industrial leading software. With great skills comes great quality. </h1>
                         </div>
                     </div>
                 </div>

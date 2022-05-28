@@ -2,6 +2,8 @@ import { useState } from 'react'
 import classNames from 'classnames'
 import { BsXLg } from 'react-icons/bs'
 import './Header.css'
+import { Link } from 'react-scroll'
+
 
 function Header() {
 
@@ -35,9 +37,9 @@ function Header() {
                 <div className="second__box">
                     <ul>
 
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="#home" > Home</a></li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="#about" > About</a></li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="#service" > Service</a></li>
+                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="home" spy={true} smooth={true} offset={1} duration={500}>Home</Link></li>
+                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="about" spy={true} smooth={true} offset={50} duration={500}>About</Link></li>
+                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="service" spy={true} smooth={true} offset={50} duration={500}>Service</Link></li>
                         <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="" > Works</a></li>
                         <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="" >Contacts</a></li>
                     </ul >
