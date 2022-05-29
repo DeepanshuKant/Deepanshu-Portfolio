@@ -107,7 +107,7 @@ html {
     list-style: none;
     margin: 20px 0 20px 0;
     padding-left: 60px;
-    color: white;
+    /* color: white; */
     opacity: 0;
     font-weight: 600;
     user-select: none;
