@@ -1,6 +1,8 @@
 import './Home.css'
 import { IoIosArrowDown } from 'react-icons/io'
 import { useEffect } from 'react'
+import { Link } from 'react-scroll'
+
 import Aos from 'aos'
 import "aos/dist/aos.css"
 
@@ -29,7 +31,7 @@ function Home() {
 
                     <div className="home__scroll" >
                         <div className="icon" style={{ color: "#39b54a", marginLeft: "80px" }}><IoIosArrowDown /></div>
-                        <div className="scroll__text" style={{ color: "white" }}>Scroll Down</div>
+                        <div className="scroll__text" style={{ color: "white" }}> <Link to='about' spy={true} smooth={true} offset={1} duration={500}> Scroll Down</Link></div>
                     </div>
                 </div>
             </div>
