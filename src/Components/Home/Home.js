@@ -20,7 +20,7 @@ function Home() {
                     </div>
                     <div className="home__buttons" data-aos="fade-up">
                         <button>
-                            Projects
+                            Works
                         </button>
                         <button>
                             Download Resume

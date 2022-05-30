@@ -37,11 +37,11 @@ function Header() {
                 <div className="second__box">
                     <ul>
 
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="home" spy={true} smooth={true} offset={1} duration={500}>Home</Link></li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="about" spy={true} smooth={true} offset={50} duration={500}>About</Link></li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="service" spy={true} smooth={true} offset={50} duration={500}>Service</Link></li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="" > Works</a></li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="" >Contacts</a></li>
+                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="home" spy={true} smooth={true} offset={1} duration={500} onClick={() => setIsSliding(!isSliding)} >Home</Link></li>
+                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="about" spy={true} smooth={true} offset={50} duration={500} onClick={() => setIsSliding(!isSliding)}  >About</Link></li>
+                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="service" spy={true} smooth={true} offset={50} duration={500} onClick={() => setIsSliding(!isSliding)} >Service</Link></li>
+                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="" onClick={() => setIsSliding(!isSliding)} > Works</a></li>
+                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="" onClick={() => setIsSliding(!isSliding)} >Contacts</a></li>
                     </ul >
                 </div >
                 <div className="third__box">
