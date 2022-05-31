@@ -18,7 +18,7 @@ function Home() {
                 <div className="home__parent" >
                     <div className="home__text" data-aos="fade-up">
                         <p className="home__para">Hi! I'm Deepanshu Kant</p>
-                        <h1 className="home__heading">I am a Full Stack Web Developer<br /> and Software Engineer.</h1>
+                        <h1 className="home__heading">A Full Stack Web Developer<br /> and Software Engineer.</h1>
                     </div>
                     <div className="home__buttons" data-aos="fade-up">
                         <button>
