@@ -27,7 +27,7 @@ function Work() {
                         {data.map((works) =>
                             <div className="work__box" key={works._id} >
                                 <p className='work__name'>{works.name}</p>
-                                <a href={works.url}>Visit</a>
+                                <a href={works.url} target="_blank" >Visit</a>
                             </div>
                         )}
                     </div>
