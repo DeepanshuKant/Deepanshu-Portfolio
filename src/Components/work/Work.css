@@ -208,3 +208,24 @@
 .work__box:hover a {
     opacity: 1;
 }
+
+
+/* Desktop view responsive */
+@media only screen and (min-width: 1200px) {
+
+    .work__parent::after {
+        height: 70%;
+    }
+
+
+    .work__parent__box {
+        /* border: 1px solid red; */
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .work__box {
+        width: 24%;
+        margin-bottom: 0;
+    }
+}
