@@ -1,16 +1,14 @@
 import './Work.css'
 import { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { getAllWorks } from '../redux/reducers/works/works.action'
 
 function Work() {
-    const dispatch = useDispatch();
 
     const [data, setData] = useState([]);
     const reduxStore = useSelector((store) => store.worksReducer);
 
     useEffect(() => {
-        reduxStore.works && setData(reduxStore.works)
+        reduxStore.works && setData(reduxStore.works);
         console.log(data)
     }, [reduxStore.works]);
 
