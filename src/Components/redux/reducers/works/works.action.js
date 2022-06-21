@@ -8,7 +8,7 @@ export const getAllWorks = () => async (dispatch) => {
         const worksList = await axios(
             {
                 method: "GET",
-                url: "http://localhost:3001/works"
+                url: "https://backend-dk-portfolio.herokuapp.com/works"
             }
         )
         return dispatch({ type: GET_ALL_WORKS, payload: worksList.data })
