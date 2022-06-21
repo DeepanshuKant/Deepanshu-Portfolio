@@ -9,7 +9,7 @@ function Work() {
 
     useEffect(() => {
         reduxStore.works && setData(reduxStore.works);
-        console.log(data)
+        // console.log(data)
     });
 
 
