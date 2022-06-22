@@ -14,12 +14,12 @@ function Contact() {
             <div id="contact">
                 <div className="contact__main__parent">
                     <div className="contact__heading">
-                        <p>CONTACT US</p>
+                        <p>CONTACT ME</p>
                         <h1>Reach out for a new project or just say hello</h1>
                     </div>
                     <div className="contact__form">
                         <form onSubmit={submitDetails} className="contact__left">
-                            <p>SEND US MESSAGE</p>
+                            <p>SEND ME MESSAGE</p>
                             <input type="text" placeholder='Your Name' className='input__field' required />
                             <input type="email" placeholder='Your Email' className='input__field' required />
                             <input type="text" placeholder='Subject' className='input__field' required />
