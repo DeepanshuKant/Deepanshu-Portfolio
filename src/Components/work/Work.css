@@ -148,16 +148,17 @@
 }
 
 .work__box:hover::before {
-    opacity: .8;
+    opacity: .9;
 }
 
 .work__name {
     color: #39b54a;
     position: absolute;
-    top: -25px;
+    top: -35px;
     left: 20px;
     transition: top .3s ease-in-out;
     padding-bottom: .2rem;
+    font-size: 1.5em;
 }
 
 .work__name::after {
@@ -220,12 +221,17 @@
 
     .work__parent__box {
         /* border: 1px solid red; */
+        width: 60%;
         flex-direction: row;
-        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
     }
 
     .work__box {
-        width: 24%;
-        margin-bottom: 0;
+        width: 45%;
+        height: 300px;
+        margin: 5px;
+        /* margin-bottom: 10px; */
     }
 }

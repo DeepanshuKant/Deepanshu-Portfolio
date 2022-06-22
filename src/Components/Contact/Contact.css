@@ -1,0 +1,141 @@
+.contact__main__parent {
+    /* border: 1px solid red; */
+    background-color: #111111;
+    color: white;
+}
+
+.contact__heading {
+    /* border: 1px solid green; */
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.contact__heading p {
+    color: #39b54a;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact__heading h1 {
+    padding-bottom: 2.5rem;
+    color: white;
+}
+
+.contact__form {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 5rem; */
+}
+
+.contact__left {
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px 0 25px;
+    background-color: #0c0c0c;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+.contact__left p {
+    color: white;
+    font-size: .9em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-bottom: 2.3rem;
+}
+
+.input__field {
+    border: none;
+    background: transparent;
+    padding-bottom: 1.3rem;
+    padding-top: 1.3rem;
+    margin-bottom: 1rem;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.325);
+    transition: border-bottom .5s ease;
+}
+
+.input__field:focus {
+    border-bottom: 1px solid #39b54a;
+
+}
+
+.contact__left textarea {
+    background-color: transparent;
+    border: none;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.325);
+    outline: none;
+    margin-bottom: 1rem;
+    resize: none;
+    color: white;
+    transition: border-bottom .5s ease;
+}
+
+.contact__left textarea:focus {
+    border-bottom: 1px solid #39b54a;
+
+}
+
+.contact__left input[type=submit] {
+    background-color: #39b54a;
+    border: none;
+    padding: 1rem 2rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: background-color .5s ease;
+    margin-top: 1.5rem;
+}
+
+
+.contact__right {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+.contact__right__box {
+    /* border: 1px solid green; */
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    margin: auto;
+}
+
+.contact__info__p {
+
+    color: white;
+    font-size: .9em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-bottom: 2.3rem;
+}
+
+.contact__right__box p {
+    color: #39b54a;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: .9em;
+    padding-bottom: 1rem;
+}
+
+.contact__right__box h1 {
+    font-size: 1em;
+    font-weight: lighter;
+    color: rgba(128, 128, 128, 0.734);
+}

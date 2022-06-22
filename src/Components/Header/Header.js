@@ -41,7 +41,7 @@ function Header() {
                         <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="about" spy={true} smooth={true} offset={50} duration={500} onClick={() => setIsSliding(!isSliding)}  >About</Link></li>
                         <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="service" spy={true} smooth={true} offset={50} duration={500} onClick={() => setIsSliding(!isSliding)} >Service</Link></li>
                         <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="work" spy={true} smooth={true} offset={50} duration={500} onClick={() => setIsSliding(!isSliding)}  >Works</Link></li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <a href="" onClick={() => setIsSliding(!isSliding)} >Contacts</a></li>
+                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="contact" spy={true} smooth={true} offset={50} duration={500} onClick={() => setIsSliding(!isSliding)}  >Contacts</Link></li>
                     </ul >
                 </div >
                 <div className="third__box">

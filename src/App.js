@@ -4,6 +4,7 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Service from './Components/Service/Service';
 import Work from './Components/work/Work';
+import Contact from './Components/Contact/Contact'
 import { useDispatch } from 'react-redux'
 import { useEffect } from 'react'
 import { getAllWorks } from './Components/redux/reducers/works/works.action'
@@ -25,6 +26,7 @@ function App() {
       <About />
       <Service />
       <Work />
+      <Contact />
     </>
   );
 }
