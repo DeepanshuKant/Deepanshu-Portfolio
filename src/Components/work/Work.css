@@ -214,10 +214,22 @@
 /* Desktop view responsive */
 @media only screen and (min-width: 1200px) {
 
+    .work__parent {
+        padding-top: 10rem;
+        margin-bottom: 4rem;
+    }
+
     .work__parent::after {
         height: 70%;
     }
 
+    .work__heading {
+        margin-bottom: 2rem;
+    }
+
+    .work__heading h1 {
+        font-size: 3rem;
+    }
 
     .work__parent__box {
         /* border: 1px solid red; */

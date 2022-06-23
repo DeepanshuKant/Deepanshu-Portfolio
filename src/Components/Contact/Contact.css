@@ -1,3 +1,7 @@
+* {
+    user-select: none;
+}
+
 .contact__main__parent {
     /* border: 1px solid red; */
     background-color: #111111;
@@ -138,4 +142,60 @@
     font-size: 1em;
     font-weight: lighter;
     color: rgba(128, 128, 128, 0.734);
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+    .contact__heading {
+        padding-top: 10rem;
+    }
+
+    .contact__heading h1 {
+        font-size: 3em;
+        /* border: 1px solid red; */
+        width: 50%;
+        margin: auto;
+    }
+
+    .contact__form {
+        /* border: 1px solid green; */
+        width: 65%;
+        margin: auto;
+        flex-direction: row;
+    }
+
+    .contact__left {
+        background-color: transparent;
+        /* border: 1px solid white; */
+        width: 170%;
+    }
+
+    .contact__left p {
+        /* width: 70%; */
+        text-align: left;
+    }
+
+    .contact__right {
+        background-color: #0c0c0c;
+        justify-content: space-around;
+        /* border: 1px solid red; */
+        height: 100%;
+        /* width: 200%; */
+    }
+
+    .contact__left input[type=submit] {
+        cursor: pointer;
+    }
+
+    .contact__info__p {
+        text-align: left;
+        /* border: 1px solid red; */
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    .contact__right__box {
+        text-align: left;
+    }
 }

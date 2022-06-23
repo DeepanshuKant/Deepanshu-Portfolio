@@ -22,7 +22,7 @@ function Home() {
                     </div>
                     <div className="home__buttons" data-aos="fade-up">
                         <button>
-                            Works
+                            <Link to='work' spy={true} smooth={true} offset={50} duration={500} > Works</Link>
                         </button>
                         <button>
                             Download Resume
