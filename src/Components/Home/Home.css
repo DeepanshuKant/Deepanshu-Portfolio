@@ -60,7 +60,7 @@ html {
     margin-top: 10px;
 }
 
-.home__buttons button {
+.home__buttons a {
     border: 2px solid white;
     padding: 12px 22px 12px 22px;
     margin-bottom: 10px;
@@ -69,14 +69,17 @@ html {
     color: white;
     outline: none;
     transition: background-color .5s ease-in-out;
-
+    /* margin-left: 20px; */
+    text-decoration: none;
 }
 
-.home__buttons button:hover {
+.home__buttons a:hover {
     cursor: pointer;
     background-color: white;
     color: black;
 }
+
+
 
 .home__scroll {
     position: absolute;
@@ -121,12 +124,13 @@ html {
         padding-left: 100px;
     }
 
-    .home__buttons button {
+    .home__buttons a {
         margin-left: 20px;
         font-size: 18px;
         letter-spacing: 2px;
 
     }
+
 
     .home__scroll {
         top: 90%;

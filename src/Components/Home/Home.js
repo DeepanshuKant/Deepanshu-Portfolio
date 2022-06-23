@@ -21,12 +21,12 @@ function Home() {
                         <h1 className="home__heading">A Full Stack Web Developer<br /> and Software Engineer.</h1>
                     </div>
                     <div className="home__buttons" data-aos="fade-up">
-                        <button>
-                            <Link to='work' spy={true} smooth={true} offset={50} duration={500} > Works</Link>
-                        </button>
-                        <button>
-                            Download Resume
-                        </button>
+                        <Link to='work' spy={true} smooth={true} offset={50} duration={500}>
+                            Works
+                        </Link>
+
+                        {/* <Link to='https://drive.google.com/file/d/15dkXkSqaTUCFdvn3FptzAamOO-RV0HsO/view?usp=sharing' target='_blank' > Download Resume</Link> */}
+                        <a href="https://drive.google.com/u/0/uc?id=15dkXkSqaTUCFdvn3FptzAamOO-RV0HsO&export=download" >Download Resume</a>
                     </div>
 
                     <div className="home__scroll" >
