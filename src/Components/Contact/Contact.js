@@ -1,10 +1,11 @@
 import React from 'react'
+import './Contact.css'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
-
 import Swal from 'sweetalert2'
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
-import './Contact.css'
 
 function Contact() {
 
@@ -35,13 +36,13 @@ function Contact() {
         const response = await axios.post("https://backend-dk-portfolio.herokuapp.com/contact/newcontact", details);
         if (response.data.success === true) {
 
-            Swal.fire('Message Sent Successfully')
+            Swal.fire('Message Sent Successfully');
         }
         else {
             Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
-                text: 'Something went wrong! Fill the fields correctly and try again.',
+                text: 'Something went wrong! Fill the fields correctly and try again.'
             })
         }
 
@@ -49,15 +50,20 @@ function Contact() {
 
     }
 
+    useEffect(() => {
+        // console.log(data)
+        Aos.init({ duration: 1000 })
+    }, []);
+
     return (
         <>
             <div id="contact">
                 <div className="contact__main__parent">
-                    <div className="contact__heading">
+                    <div className="contact__heading" data-aos="fade-up" >
                         <p>CONTACT ME</p>
                         <h1>Reach out for a new project or just say hello</h1>
                     </div>
-                    <div className="contact__form">
+                    <div className="contact__form" data-aos="fade-up">
                         <form onSubmit={submitDetails} className="contact__left">
                             <p>SEND ME MESSAGE</p>
                             <input type="text" placeholder='Your Name' className='input__field' required value={name} onChange={(e) => setName(e.target.value)} />
