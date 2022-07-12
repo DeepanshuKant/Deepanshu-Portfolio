@@ -26,7 +26,7 @@ function Home() {
                         </Link>
 
                         {/* <Link to='https://drive.google.com/file/d/15dkXkSqaTUCFdvn3FptzAamOO-RV0HsO/view?usp=sharing' target='_blank' > Download Resume</Link> */}
-                        <a href="https://drive.google.com/u/0/uc?id=15dkXkSqaTUCFdvn3FptzAamOO-RV0HsO&export=download" >Download Resume</a>
+                        <a href="https://drive.google.com/u/0/uc?id=1qdu6iKxnxu3HfmbmtmXUnUDiAtjTMKmX&export=download" >Download Resume</a>
                     </div>
 
                     <div className="home__scroll" >
