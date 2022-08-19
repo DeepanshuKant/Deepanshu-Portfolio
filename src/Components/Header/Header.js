@@ -44,11 +44,11 @@ function Header() {
                         <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="contact" spy={true} smooth={true} offset={50} duration={500} onClick={() => setIsSliding(!isSliding)}  >Contacts</Link></li>
                     </ul >
                 </div >
-                <div className="third__box">
+                {/* <div className="third__box">
                     <p className={classNames('third__content', { 'sliding__items__animation': isSliding })}>
                         Perspiciatis hic praesentium nesciunt. Et neque a dolorum voluptatem porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.
                     </p>
-                </div>
+                </div> */}
             </div >
         </>
     )
