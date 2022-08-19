@@ -16,6 +16,7 @@ function Home() {
             <div id="home" >
                 {/* <iframe src='https://my.spline.design/untitled-46ba5896a587b67eef94c75065136c5a/' frameborder='0' width='50%' height='50%'></iframe> */}
                 <div className="home__parent" >
+                    <iframe src='https://my.spline.design/roomrelaxingcopy-37f5f6f09c186a3c2cff8257d9633d2a/' frameborder='0' width='100%' height='100%'></iframe>
                     <div className="home__text" data-aos="fade-up">
                         <p className="home__para">Hi! I'm Deepanshu Kant</p>
                         <h1 className="home__heading">A Full Stack Web Developer<br /> and Software Engineer.</h1>

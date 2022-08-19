@@ -28,11 +28,19 @@ html {
     top: 0;
     left: 0;
     background: url("../Asset//home_back.webp");
+    /* background: url("https://my.spline.design/roomrelaxingcopy-37f5f6f09c186a3c2cff8257d9633d2a"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     opacity: .50;
     z-index: -1;
+}
+
+.home__parent iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .home__text {
