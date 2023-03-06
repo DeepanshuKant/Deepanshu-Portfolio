@@ -1,4 +1,4 @@
-#service {
+#skill {
     padding: 10px;
     padding-top: 6em;
     padding-bottom: 10em;
@@ -62,6 +62,7 @@ html {
     align-items: center;
     flex-direction: column;
     position: relative;
+    transition: all .5s ease;
 }
 
 .service__box p {
@@ -100,6 +101,7 @@ html {
     background: url("../Asset/design.svg");
     color: #39b54a;
 }
+
 
 @media only screen and (min-width: 451px) {
 

@@ -4,7 +4,7 @@ import './App.css';
 import About from './Components/About/About';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
-import Service from './Components/Service/Service';
+import Skills from './Components/Skills/Skills';
 import Work from './Components/work/Work';
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer';
@@ -28,7 +28,7 @@ function App() {
       <Header />
       <Home />
       <About />
-      <Service />
+      <Skills />
       <Work />
       <Contact />
       <Footer />

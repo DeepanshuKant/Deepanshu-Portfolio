@@ -19,7 +19,13 @@ function About() {
                         <h1>I'm Deepanshu Kant</h1>
                     </div>
                     <div className="about__content" data-aos="fade-up">
-                        <p>I'm a Full Stack Web Developer and C++ programmer with over 1 year of experience in making and developing websites. Web technologies I am proficient with are HTML, CSS, Javascript, React, Express, Node and MongoDB.</p>
+                        <p>
+                            I am an undergraduate student at Guru Gobind Singh Indraprastha University pursuing Bachelors of
+                            Technology in Information Technology from Guru Tegh Bahadur Institute of Technology (GTBIT).
+                            I have that enthusiasm to learn new technologies and to create new things. I am a self-motivated and
+                            self-driven individual who is always looking for new challenges and new ways to solve problems. I am proficient
+                            in many technologies with over 1 year of experience in Software Development.
+                        </p>
                     </div>
 
                     <div className="about__boxes">
@@ -33,12 +39,12 @@ function About() {
                             <h1><CountUp start={0} end={7} duration={1} /></h1>
                             <p>Projects Completed</p>
                         </div>
-                        <div className="box" data-aos="fade-up">
+                        {/* <div className="box" data-aos="fade-up">
                             <h1>
                                 <CountUp start={0} end={60} duration={1} />
                             </h1>
                             <p>Happy Clients</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
