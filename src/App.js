@@ -17,6 +17,8 @@ function App() {
   const dispatch = useDispatch();
   useEffect(() => {
 
+    alert("All the data about awards and projects is dummy. If you want to contact me, please use the contact form. Thank you!")
+
     function getData() {
       dispatch(getAllWorks());
     }
