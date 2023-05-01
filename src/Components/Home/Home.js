@@ -54,7 +54,14 @@ function Home() {
                         </Link>
 
                         {/* <Link to='https://drive.google.com/file/d/15dkXkSqaTUCFdvn3FptzAamOO-RV0HsO/view?usp=sharing' target='_blank' > Download Resume</Link> */}
-                        <a href="https://drive.google.com/u/0/uc?id=1XX9WO5QNIfEaEKvvOaCK_8gFA1DNIU_o&export=download" >Download Resume</a>
+                        <a href="https://drive.google.com/u/0/uc?id=1XX9WO5QNIfEaEKvvOaCK_8gFA1DNIU_o&export=download"
+                            style={{
+                                backgroundColor: "#39b54a",
+                                color: "#111111",
+                                border: "1px solid #39b54a",
+                            }}
+
+                        >Download Resume</a>
                     </div>
 
                     <div className="home__scroll" >

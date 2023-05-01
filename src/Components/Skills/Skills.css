@@ -1,5 +1,5 @@
 #skill {
-    padding: 10px;
+    /* padding: 10px; */
     padding-top: 6em;
     padding-bottom: 10em;
 }
@@ -48,67 +48,37 @@ html {
 }
 
 .service__parent__box {
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    margin-top: 40px;
+    background-color: #111111;
+    padding: 40px 10px 40px 10px;
 }
 
-.service__box {
-    padding-top: 7em;
+.item__box {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    position: relative;
-    transition: all .5s ease;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.service__box p {
-    color: black;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding-bottom: .7em;
-}
-
-.service__box h1 {
+.skill__item {
+    /* width: 80px; */
     text-align: center;
-    font-size: 1rem;
-    line-height: 1.8;
-    font-weight: lighter;
-    color: rgba(0, 0, 0, 0.523);
+    padding: 10px;
+    background-color: #39b54a;
+    border-radius: 5px;
 }
 
-.service__box:nth-child(1)::before {
-    content: '';
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background-color: red;
-    top: 20px;
-    background: url("../Asset/development.svg");
-    color: #39b54a;
-}
 
-.service__box:nth-child(2)::before {
-    content: '';
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background-color: red;
-    top: 30px;
-    background: url("../Asset/design.svg");
-    color: #39b54a;
-}
 
 
 @media only screen and (min-width: 451px) {
 
-
-    #service {
-        padding-top: 10em;
-    }
 
     .service__heading {
         /* border: 1px solid red; */
@@ -132,50 +102,21 @@ html {
     }
 
     .service__parent__box {
-        /* padding-top: 3em; */
-        /* border: 1px solid red; */
-        flex-direction: row;
-        width: 100%;
+        padding: 60px 10px 60px 10px;
+        background: none;
     }
 
-    .service__box {
-        /* border: 1px solid black; */
-        padding: 4em;
-        width: 35%;
+    .item__box {
+        width: 50%;
+        gap: 20px;
     }
 
-    .service__box p {
-        /* border: 1px solid red; */
-        font-size: 1.8rem;
-        width: 100%;
+    .skill__item {
+        text-align: center;
+        padding: 10px;
+        background-color: #39b54a;
+        border-radius: 5px;
+        font-size: 1.4rem;
     }
 
-    .service__box h1 {
-        text-align: left;
-        font-size: 1.2rem;
-    }
-
-    .service__box:nth-child(1)::before {
-        content: '';
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        background-color: red;
-        top: 70px;
-        left: -10px;
-        background: url("../Asset/development.svg");
-        color: #39b54a;
-    }
-
-    .service__box:nth-child(2)::before {
-        content: '';
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        background-color: red;
-        top: 70px;
-        left: -10px;
-        background: url("../Asset/design.svg");
-        color: #39b54a;
-    }
 }

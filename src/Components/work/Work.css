@@ -75,67 +75,9 @@
     overflow: hidden;
     border-radius: 5px;
     z-index: 10;
-}
-
-.work__box:nth-child(1):after {
-    content: ' ';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    /* background: url('https://images.pexels.com/photos/5662857/pexels-photo-5662857.png?cs=srgb&dl=pexels-tima-miroshnichenko-5662857.jpg&fm=jpg'); */
-    background: url('../Asset/1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* opacity: ; */
-    z-index: -1;
     transition: transform .3s ease;
 }
 
-.work__box:nth-child(2):after {
-    content: ' ';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    /* background: url('https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?cs=srgb&dl=pexels-sebastian-ervi-1763075.jpg&fm=jpg'); */
-    background: url('../Asset/2.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* opacity: ; */
-    z-index: -1;
-    transition: transform .3s ease;
-}
-
-.work__box:nth-child(3):after {
-    content: ' ';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    /* background: url('https://images.pexels.com/photos/4113084/pexels-photo-4113084.jpeg?cs=srgb&dl=pexels-yaroslav-danylchenko-4113084.jpg&fm=jpg'); */
-    background: url('../Asset/3.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* opacity: ; */
-    z-index: -1;
-    transition: transform .3s ease;
-}
-
-.work__box:nth-child(4):after {
-    content: ' ';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    /* background: url('https://images.pexels.com/photos/3640930/pexels-photo-3640930.jpeg?cs=srgb&dl=pexels-ena-marinkovic-3640930.jpg&fm=jpg'); */
-    background: url('../Asset/4.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* opacity: ; */
-    z-index: -1;
-    transition: transform .3s ease;
-}
 
 .work__box::before {
     content: ' ';
@@ -147,13 +89,11 @@
     transition: opacity .3s ease;
 }
 
-.work__box:hover::after {
-    transform: scale(1.1);
-}
 
 .work__box:hover::before {
     opacity: .9;
 }
+
 
 .work__name {
     color: #39b54a;
