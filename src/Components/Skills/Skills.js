@@ -27,7 +27,7 @@ function Skills() {
                     <div className="service__parent__box">
                         <div className="item__box">
                             {skillsData.map((skil, index) => (
-                                <div className="skill__item" key={index} data-aos="fade-left" >
+                                <div className="skill__item" key={index} data-aos="fade-up" >
                                     <h4>{skil}</h4>
                                 </div>
                             ))}
