@@ -3,7 +3,7 @@ import classNames from 'classnames'
 import { BsXLg } from 'react-icons/bs'
 import './Header.css'
 import { Link } from 'react-scroll'
-
+import { motion } from 'framer-motion'
 
 function Header() {
 
@@ -37,11 +37,36 @@ function Header() {
                 <div className="second__box">
                     <ul>
 
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="home" spy={true} smooth={true} offset={1} duration={500} onClick={() => setIsSliding(!isSliding)} >Home</Link></li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="about" spy={true} smooth={true} offset={50} duration={500} onClick={() => setIsSliding(!isSliding)}  >About</Link></li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="skill" spy={true} smooth={true} offset={50} duration={500} onClick={() => setIsSliding(!isSliding)} >Skills</Link></li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="work" spy={true} smooth={true} offset={50} duration={500} onClick={() => setIsSliding(!isSliding)}  >Works</Link></li>
-                        <li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}> <Link to="contact" spy={true} smooth={true} offset={50} duration={500} onClick={() => setIsSliding(!isSliding)}  >Contacts</Link></li>
+                        <motion.li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}
+                            whileHover={{
+                                letterSpacing: '0.2rem',
+                            }}
+
+                        > <Link to="home" spy={true} smooth={true} offset={1} duration={500} onClick={() => setIsSliding(!isSliding)} >Home</Link></motion.li>
+                        <motion.li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}
+                            whileHover={{
+                                letterSpacing: '0.2rem',
+                            }}
+
+                        > <Link to="about" spy={true} smooth={true} offset={50} duration={500} onClick={() => setIsSliding(!isSliding)}  >About</Link></motion.li>
+                        <motion.li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}
+                            whileHover={{
+                                letterSpacing: '0.2rem',
+                            }}
+
+                        > <Link to="skill" spy={true} smooth={true} offset={50} duration={500} onClick={() => setIsSliding(!isSliding)} >Skills</Link></motion.li>
+                        <motion.li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}
+                            whileHover={{
+                                letterSpacing: '0.2rem',
+                            }}
+
+                        > <Link to="work" spy={true} smooth={true} offset={50} duration={500} onClick={() => setIsSliding(!isSliding)}  >Works</Link></motion.li>
+                        <motion.li className={classNames('sliding__items', { 'sliding__items__animation': isSliding })}
+                            whileHover={{
+                                letterSpacing: '0.2rem',
+                            }}
+
+                        > <Link to="contact" spy={true} smooth={true} offset={50} duration={500} onClick={() => setIsSliding(!isSliding)}  >Contacts</Link></motion.li>
                     </ul >
                 </div >
                 {/* <div className="third__box">

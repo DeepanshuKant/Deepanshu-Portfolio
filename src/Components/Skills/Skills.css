@@ -117,6 +117,13 @@ html {
         background-color: #39b54a;
         border-radius: 5px;
         font-size: 1.4rem;
+        transition: all .25s ease-in-out;
     }
 
+    .skill__item:hover {
+        transition: all 0.25s ease !important;
+        transform: scale(1.1) !important;
+        background-color: #111111;
+        color: #39b54a;
+    }
 }
