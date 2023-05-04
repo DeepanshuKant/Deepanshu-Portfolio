@@ -14,10 +14,7 @@ function Footer() {
                         <div className="footer__left">
                             <h1>Portfolio.</h1>
                             <p>
-                                It is my pleasure to welcome you to my portfolio.
-                                It is my pleasure to welcome you to my portfolio.
-                                It is my pleasure to welcome you to my portfolio.
-                                It is my pleasure to welcome you to my portfolio.
+                                “First forget inspiration. Habit is more dependable. Habit will sustain you whether you're inspired or not. Habit will help you finish and polish your stories. Inspiration won't. Habit is persistence in practice.” ―Octavia Butler
                             </p>
                         </div>
 

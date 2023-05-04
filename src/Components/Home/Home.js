@@ -16,9 +16,7 @@ function Home() {
     return (
         <>
             <div id="home" >
-                {/* <iframe src='https://my.spline.design/untitled-46ba5896a587b67eef94c75065136c5a/' frameborder='0' width='50%' height='50%'></iframe> */}
                 <div className="home__parent" >
-                    {/* <iframe src='https://my.spline.design/roomrelaxingcopy-37f5f6f09c186a3c2cff8257d9633d2a/' frameborder='0' width='100%' height='100%'></iframe> */}
                     <div className="home__text" >
                         <motion.p className="home__para"
                             initial={{
@@ -32,11 +30,10 @@ function Home() {
                                 transition: {
                                     delay: 0.5
                                 }
-                            }}
+                            }} >
+                            Hi! I'm Deepanshu Kant
+                        </motion.p>
 
-
-                        >
-                            Hi! I'm Deepanshu Kant</motion.p>
                         <motion.h1 className="home__heading"
                             initial={{
                                 x: 200,
@@ -48,6 +45,7 @@ function Home() {
                             }}
                         >A Full Stack Web Developer<br /> and Software Engineer.</motion.h1>
                     </div>
+
                     <div className="home__buttons" data-aos="fade-up">
                         <Link to='work' spy={true} smooth={true} offset={50} duration={500}>
                             Works
@@ -65,7 +63,7 @@ function Home() {
                     </div>
 
                     <div className="home__scroll" >
-                        <div className="icon" style={{ color: "#39b54a", marginLeft: "80px" }}><IoIosArrowDown /></div>
+                        <div className="icon" style={{ color: "#39b54a", margin: "none" }}><IoIosArrowDown /></div>
                         <div className="scroll__text" style={{ color: "white" }}> <Link to='about' spy={true} smooth={true} offset={1} duration={500}> Scroll Down</Link></div>
                     </div>
                 </div>
