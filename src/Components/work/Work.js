@@ -36,9 +36,9 @@ function Work() {
         },
         {
             _id: 3,
-            name: "Movie Site",
-            url: "https://movie-site-nine.vercel.app/",
-            image: "https://images.pexels.com/photos/5662857/pexels-photo-5662857.png?cs=srgb&dl=pexels-tima-miroshnichenko-5662857.jpg&fm=jpg"
+            name: "Space Tourism",
+            url: "https://spacetourism-project.vercel.app/",
+            image: "https://res.cloudinary.com/dm46dmseq/image/upload/v1683364145/spacetourism_a1yowr.jpg"
         },
         {
             _id: 4,
