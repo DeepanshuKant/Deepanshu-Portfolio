@@ -52,7 +52,7 @@ function Home() {
                         </Link>
 
                         {/* <Link to='https://drive.google.com/file/d/15dkXkSqaTUCFdvn3FptzAamOO-RV0HsO/view?usp=sharing' target='_blank' > Download Resume</Link> */}
-                        <a href="https://drive.google.com/u/0/uc?id=1CDCODTAfarQVOH3BvAE7W_Q-xypBVzsx&export=download"
+                        <a href="https://drive.google.com/u/0/uc?id=1OAvx3qlR9-TNOJSlItzalex9RE03lxLT&export=download"
                             style={{
                                 backgroundColor: "#39b54a",
                                 color: "#111111",
