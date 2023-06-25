@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 
 import Aos from 'aos'
 import "aos/dist/aos.css"
+import { type } from '@testing-library/user-event/dist/type'
 function Work() {
 
 
@@ -19,7 +20,16 @@ function Work() {
     });
 
 
-
+    const imgVariant = {
+        initial: {
+            x: "40%",
+            opacity: 0
+        },
+        animate: {
+            x: "0%",
+            opacity: 1,
+        }
+    }
 
     const workData = [
         {
@@ -59,6 +69,7 @@ function Work() {
                         <h1>I love what I do,<br /> check out some my of latest works </h1>
                     </div>
 
+                    {/* <div className="work__parent__box" > */}
                     <div className="work__parent__box" data-aos="fade-up" >
                         {workData.map((works) =>
                             <div className="work__box" key={works._id}

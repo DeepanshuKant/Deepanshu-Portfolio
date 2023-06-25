@@ -2,13 +2,14 @@ html {
     scroll-behavior: smooth;
 }
 
+
 .hamburger {
-    background: black;
+    background: #111111;
     width: 120px;
     display: inline-block;
     padding: 7px;
     /* border: 1px solid red; */
-    color: #39b54a;
+    color: #f5f5f7;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,29 +30,29 @@ html {
 
 .hamburger:hover p {
     transition: all .5s ease;
-    color: #fefefe;
+    color: #8e8e93;
 }
 
 .menu__text__nav {
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 3px;
-    color: #39b54a;
+    color: #8e8e93;
     opacity: 0;
     padding-left: 60px;
 }
 
 .menu__icon__list {
     list-style: none;
-    border: 1px solid white;
+    border: 1px solid #f5f5f7;
     width: 23px;
     margin: 7px;
-    background-color: white;
+    background-color: #f5f5f7;
 }
 
 .sliding__window {
-    background-color: #0c0c0c;
-    color: #39b54a;
+    background-color: #111111;
+    /* color: #39b54a; */
     position: fixed;
     right: 0px;
     /* top: 30px; */
@@ -84,14 +85,14 @@ html {
 }
 
 .close__icon {
-    background-color: black;
+    background-color: #111111;
     padding: 5px;
     height: 20px;
     width: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #f5f5f7;
 }
 
 .close__icon:hover {
@@ -116,7 +117,7 @@ html {
 
 .sliding__items a {
     text-decoration: none;
-    color: white;
+    color: #f5f5f7;
 }
 
 .sliding__items__animation {

@@ -54,17 +54,17 @@ function Home() {
                         {/* <Link to='https://drive.google.com/file/d/15dkXkSqaTUCFdvn3FptzAamOO-RV0HsO/view?usp=sharing' target='_blank' > Download Resume</Link> */}
                         <a href="https://drive.google.com/u/0/uc?id=1OAvx3qlR9-TNOJSlItzalex9RE03lxLT&export=download"
                             style={{
-                                backgroundColor: "#39b54a",
+                                backgroundColor: "#f5f5f7",
                                 color: "#111111",
-                                border: "1px solid #39b54a",
+                                border: "1px solid #f5f5f7",
                             }}
 
                         >Download Resume</a>
                     </div>
 
                     <div className="home__scroll" >
-                        <div className="icon" style={{ color: "#39b54a", margin: "none" }}><IoIosArrowDown /></div>
-                        <div className="scroll__text" style={{ color: "white" }}> <Link to='about' spy={true} smooth={true} offset={1} duration={500}> Scroll Down</Link></div>
+                        <div className="icon" style={{ color: "#f5f5f7", margin: "none" }}><IoIosArrowDown /></div>
+                        <div className="scroll__text" style={{ color: "#f5f5f7" }}> <Link to='about' spy={true} smooth={true} offset={1} duration={500}> Scroll Down</Link></div>
                     </div>
                 </div>
             </div>

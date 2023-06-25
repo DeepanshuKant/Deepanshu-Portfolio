@@ -18,7 +18,7 @@ html {
 
 .home__text {
     position: relative;
-    color: white;
+    color: #f5f5f7;
 }
 
 .home__para {
@@ -48,13 +48,13 @@ html {
 }
 
 .home__buttons a {
-    border: 2px solid white;
+    border: 2px solid #f5f5f7;
     /* border-radius: 5px; */
     padding: 12px 22px 12px 22px;
     margin-bottom: 10px;
     background: transparent;
     font-size: 18px;
-    color: white;
+    color: #f5f5f7;
     font-weight: bold;
     outline: none;
     transition: background-color .5s ease;
@@ -64,8 +64,8 @@ html {
 
 .home__buttons a:hover {
     cursor: pointer;
-    background-color: white;
-    color: black;
+    background-color: #f5f5f7;
+    color: #111111;
 }
 
 

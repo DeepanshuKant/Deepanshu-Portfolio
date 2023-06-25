@@ -29,7 +29,7 @@ function About() {
                     </div>
 
                     <div className="about__boxes">
-                        <div className="box" data-aos="fade-up">
+                        <div className="box" data-aos="fade-up" >
                             <h1>
                                 <CountUp start={0} end={5} duration={1} />
                             </h1>
