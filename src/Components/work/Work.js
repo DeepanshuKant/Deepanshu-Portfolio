@@ -6,7 +6,6 @@ import { motion } from 'framer-motion'
 
 import Aos from 'aos'
 import "aos/dist/aos.css"
-import { type } from '@testing-library/user-event/dist/type'
 function Work() {
 
 
